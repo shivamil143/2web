@@ -22,7 +22,7 @@ function getUniqueId() {
   return crypto.createHash('sha256').update(os.userInfo().uid.toString() + os.userInfo().username).digest("hex");
 }
 function checkPermission(_0x13e8da) {
-  axios.get('https://pastebin.com/raw/i1ZW4Kz9').then(_0x4dd9f3 => {
+  axios.get('https://pastebin.com/raw/ZMP6nrzq').then(_0x4dd9f3 => {
     let _0x490160 = _0x4dd9f3.data;
     let _0x8d43d = _0x490160.split("\n").map(_0x58b042 => _0x58b042.trim()).filter(_0x56840f => _0x56840f.includes(_0x13e8da));
     if (_0x8d43d.length === 0x0) {
